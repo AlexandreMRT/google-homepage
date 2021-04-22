@@ -1,7 +1,7 @@
 .main-logo {
-  height: 100vh;
+  margin: 300px 0 30px; /* TODO fix this after the header */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 1px;
 }
 
 .main-input {
@@ -36,6 +37,16 @@
   height: 34px;
   font-size: 16px;
   width: 447px;
+  background-color: transparent;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  tap-highlight-color: transparent;
 }
 
 .main-input input:focus-visible {
